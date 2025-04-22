@@ -36,6 +36,12 @@ Para __captar a distância__: ``distancia = sensor.read();``
 Para verificar se a distância é __menor que algum valor__: ``if(distancia < valor){}``
 
 ---
+### • SENSOR LDR | SENSOR DE CHUVA | SENSOR DE UMIDADE
+Para __captar o valor lido__ pelo sensor: ``valorLido = analogRead(sensor);``
+
+Para verificar se a distância é __menor que algum valor__: ``if(valorLido < valorDefinido){}``
+
+---
 ### • SERVO MOTOR
 Para __definir a porta__: ``motor.attach(porta);``
 

@@ -22,10 +22,10 @@ void loop() {
 
   /*Criação de uma condição que verifica se o nível de luminosidade é maior que 600
   Você pode mudar o valor e também o operador.
-  Exemplos de valores: Variam de 0 a 1023, sendo 0 = totalmente escuro e 1023 = totalmente claro.
+  Exemplos de valores: Variam de 0 a 1023, sendo 0 = totalmente claro e 1023 = totalmente escuro.
   Exemplos de operadores:
   > maior que || < menor que || >= maior ou igual || <= menor ou igual || == exatamente igual || != diferente de */
-  if(luz > 600){
+  if(luz < 600){
     //aqui você coloca os comandos que serão executados se o nível de luminosidade for maior que o valor definido, no caso do programa, 600. Por exemplo: apagar uma lâmpada
   }else{
     //aqui você coloca os comandos que serão executados se o nível de luminosidade for menor que o definido, por exemplo: acender a lâmpada
